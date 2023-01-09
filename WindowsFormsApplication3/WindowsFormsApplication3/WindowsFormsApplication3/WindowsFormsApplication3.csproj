@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A40A37A6-6299-41CF-ABA4-81925C3BC6DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication3</RootNamespace>
+    <AssemblyName>WindowsFormsApplication3</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form1.Designer.cs">
+      <DependentUpon>form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form4.Designer.cs">
+      <DependentUpon>form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lostfoundDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lostfoundDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lostfoundDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lostfoundDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lostfoundDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lostfoundDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lostfoundDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lostfoundDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lostfoundDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lostfoundDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lostfoundDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lostfoundDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lostfoundDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lostfoundDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lostfoundDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lostfoundDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lostfoundDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lostfoundDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lostfoundDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lostfoundDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="form1.resx">
+      <DependentUpon>form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form4.resx">
+      <DependentUpon>form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="lostfoundDataSet.xsc">
+      <DependentUpon>lostfoundDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lostfoundDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lostfoundDataSet.xss">
+      <DependentUpon>lostfoundDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet1.xsc">
+      <DependentUpon>lostfoundDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lostfoundDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lostfoundDataSet1.xss">
+      <DependentUpon>lostfoundDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet2.xsc">
+      <DependentUpon>lostfoundDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lostfoundDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lostfoundDataSet2.xss">
+      <DependentUpon>lostfoundDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet3.xsc">
+      <DependentUpon>lostfoundDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lostfoundDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lostfoundDataSet3.xss">
+      <DependentUpon>lostfoundDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet4.xsc">
+      <DependentUpon>lostfoundDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lostfoundDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lostfoundDataSet4.xss">
+      <DependentUpon>lostfoundDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet5.xsc">
+      <DependentUpon>lostfoundDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lostfoundDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lostfoundDataSet5.xss">
+      <DependentUpon>lostfoundDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet6.xsc">
+      <DependentUpon>lostfoundDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lostfoundDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lostfoundDataSet6.xss">
+      <DependentUpon>lostfoundDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet7.xsc">
+      <DependentUpon>lostfoundDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lostfoundDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lostfoundDataSet7.xss">
+      <DependentUpon>lostfoundDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet8.xsc">
+      <DependentUpon>lostfoundDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lostfoundDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lostfoundDataSet8.xss">
+      <DependentUpon>lostfoundDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet9.xsc">
+      <DependentUpon>lostfoundDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="lostfoundDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lostfoundDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lostfoundDataSet9.xss">
+      <DependentUpon>lostfoundDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
